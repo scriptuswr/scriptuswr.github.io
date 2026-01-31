@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Sistemas de Escritura</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="theme-light">
+    <!-- Main App Container -->
+    <div id="app">
+        <!-- Loading screen -->
+        <div id="loading" class="fixed inset-0 flex items-center justify-center bg-loading">
+            <div class="text-2xl font-medium text-loading">Cargando...</div>
+        </div>
+    </div>
+
+    <!-- Data Files -->
+    <script src="data/hiragana.js"></script>
+    <script src="data/katakana.js"></script>
+    <script src="data/hangul.js"></script>
+    <script src="data/arabic.js"></script>
+    <script src="data/russian.js"></script>
+    <script src="data/georgian.js"></script>
+
+    <!-- Utility & Component Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/themeManager.js"></script>
+    <script src="js/testEngine.js"></script>
+
+    <!-- UI Components -->
+    <script src="js/components/header.js"></script>
+    <script src="js/components/homeScreen.js"></script>
+    <script src="js/components/setupScreen.js"></script>
+    <script src="js/components/testScreen.js"></script>
+    <script src="js/components/resultsScreen.js"></script>
+
+    <!-- Main App -->
+    <script src="js/app.js"></script>
+</body>
+</html>
