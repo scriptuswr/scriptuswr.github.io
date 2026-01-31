@@ -1,7 +1,7 @@
 // Datos completos de Ruso (Cirílico)
 const RUSSIAN_DATA = {
     id: 'russian',
-    name: 'Russian',
+    name: 'Ruso',
     nameEs: 'Ruso',
     description: 'Alfabeto cirílico ruso',
 

@@ -141,10 +141,10 @@ function renderSetupScreen(systemId) {
                     </div>
 
                     <div style="margin-top:0.75rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+                        <button class="btn btn-ghost btn-sm" onclick="document.getElementById('num-questions-range').value=5; document.getElementById('num-questions-range').dispatchEvent(new Event('input'));">5</button>
                         <button class="btn btn-ghost btn-sm" onclick="document.getElementById('num-questions-range').value=10; document.getElementById('num-questions-range').dispatchEvent(new Event('input'));">10</button>
                         <button class="btn btn-ghost btn-sm" onclick="document.getElementById('num-questions-range').value=20; document.getElementById('num-questions-range').dispatchEvent(new Event('input'));">20</button>
                         <button class="btn btn-ghost btn-sm" onclick="document.getElementById('num-questions-range').value=50; document.getElementById('num-questions-range').dispatchEvent(new Event('input'));">50</button>
-                        <button class="btn btn-ghost btn-sm" onclick="document.getElementById('num-questions-range').value=100; document.getElementById('num-questions-range').dispatchEvent(new Event('input'));">100</button>
                     </div>
 
                     <p style="color: var(--text-secondary); margin-top:0.75rem; font-size: 0.875rem;">

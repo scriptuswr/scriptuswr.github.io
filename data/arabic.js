@@ -1,7 +1,7 @@
 // Datos completos de Árabe
 const ARABIC_DATA = {
     id: 'arabic',
-    name: 'Arabic',
+    name: 'Árabe',
     nameEs: 'Árabe',
     description: 'Alfabeto árabe (Abjad)',
 

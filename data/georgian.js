@@ -1,7 +1,7 @@
 // Datos completos de Georgiano
 const GEORGIAN_DATA = {
     id: 'georgian',
-    name: 'Georgian',
+    name: 'Georgiano',
     nameEs: 'Georgiano',
     description: 'Alfabeto georgiano (Mkhedruli)',
 
