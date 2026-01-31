@@ -18,6 +18,11 @@ const KATAKANA_DATA = {
             description: 'Ver la lectura y escribir el carácter'
         },
         {
+            id: 'multiple-choice',
+            name: 'Opción Múltiple',
+            description: 'Ver letra y elegir la lectura correcta entre 3 opciones'
+        },
+        {
             id: 'word-to-romaji',
             name: 'Palabra → Romaji',
             description: 'Transcribir palabras en katakana a romaji'

@@ -18,6 +18,11 @@ const HANGUL_DATA = {
             description: 'Ver la lectura y escribir el carácter'
         },
         {
+            id: 'multiple-choice',
+            name: 'Opción Múltiple',
+            description: 'Ver letra y elegir la lectura correcta entre 3 opciones'
+        },
+        {
             id: 'syllable-blocks-2',
             name: 'Bloques Silábicos (2 letras)',
             description: 'Combinar consonante + vocal'

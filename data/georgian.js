@@ -1,7 +1,7 @@
 // Datos completos de Georgiano
 const GEORGIAN_DATA = {
     id: 'georgian',
-    name: 'Georgiano',
+    name: 'Georgian',
     nameEs: 'Georgiano',
     description: 'Alfabeto georgiano (Mkhedruli)',
 
@@ -16,6 +16,11 @@ const GEORGIAN_DATA = {
             id: 'romaji-to-letter',
             name: 'Transcripción → Letra',
             description: 'Ver la lectura y escribir el carácter'
+        },
+        {
+            id: 'multiple-choice',
+            name: 'Opción Múltiple',
+            description: 'Ver letra y elegir la lectura correcta entre 3 opciones'
         },
         {
             id: 'word-to-romaji',

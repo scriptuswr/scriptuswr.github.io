@@ -1,7 +1,7 @@
 // Datos completos de Ruso (Cirílico)
 const RUSSIAN_DATA = {
     id: 'russian',
-    name: 'Ruso',
+    name: 'Russian',
     nameEs: 'Ruso',
     description: 'Alfabeto cirílico ruso',
 
@@ -16,6 +16,11 @@ const RUSSIAN_DATA = {
             id: 'romaji-to-letter',
             name: 'Transcripción → Letra',
             description: 'Ver la lectura y escribir el carácter'
+        },
+        {
+            id: 'multiple-choice',
+            name: 'Opción Múltiple',
+            description: 'Ver letra y elegir la lectura correcta entre 3 opciones'
         },
         {
             id: 'word-to-romaji',
